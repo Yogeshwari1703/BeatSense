@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual Environment
+venv/
+env/
+ENV/
+myenv/
+.venv/
+env*
+
+# Large data files
+data/mitbih.zip
+data/mitbih/*.dat
+data/mitbih/*.hea
+data/mitbih/*.atr
+data/processed/
+data/raw/
+
+# Model files (if too large for GitHub)
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Temporary files
+temp.png
+temp.jpg
+*.tmp
+*.log
+
+# Output files
+*.json
+*.csv
+results/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# GitHub specific
+.DS_Store
+Thumbs.db
